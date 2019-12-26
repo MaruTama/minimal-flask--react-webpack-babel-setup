@@ -26,7 +26,8 @@ Goto http://localhost:3000
 ```
 
 
-Flask は以下のようにファイルを配置する必要がある
+Flask は以下のようにファイルを配置する必要がある  
+- [【Trainer's Recipe】Pythonのフレームワークのflaskを触ってみた。](https://qiita.com/gsacademy_tokyo/items/16cba215a0cd921df87f)
 ```
 /myproject  
   ├─ server.py  
