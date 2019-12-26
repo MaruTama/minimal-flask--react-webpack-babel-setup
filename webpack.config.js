@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/jsx/index.js',
   module: {
     rules: [
       {
@@ -15,15 +15,8 @@ module.exports = {
     extensions: ['*', '.js', '.jsx']
   },
   output: {
-    path: __dirname + '/dist',
+    path: __dirname + '/src/python/server/static/js',
     publicPath: '/',
     filename: 'bundle.js'
-  },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin()
-  ],
-  devServer: {
-    contentBase: './dist',
-    hot: true
   }
 };
