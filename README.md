@@ -39,14 +39,3 @@ Flask は以下のようにファイルを配置する必要がある
        └── js
             └── bundle.js
 ```
-
-## 不明なエラー
-```
-VM3930 index.js:14 Uncaught TypeError: Cannot read property 'accept' of undefined
-    at Module.eval (VM3930 index.js:14)
-    at eval (VM3930 index.js:15)
-    at Module../src/jsx/index.js (VM3929 bundle.js:584)
-    at __webpack_require__ (VM3929 bundle.js:20)
-    at VM3929 bundle.js:84
-    at VM3929 bundle.js:87
-```
